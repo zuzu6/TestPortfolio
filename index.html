@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./dist/output.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./images/faviconprt.png">
     <title>Vlad Zuzu</title>
+    <link rel="shortcut icon" href="./images/fav-icon1.png" type="image/x-png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700;900&display=swap" rel="stylesheet">
   </head>
   <body>
-      <header class="text-gray-600 body-font"> 
+      <header class="text-gray-600 body-font">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 cursor-pointer">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -21,18 +23,18 @@
             <span class="ml-3 text-xl cursor-pointer">vzuzu.dev</span>
           </a>
           <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-            <a class="mr-5 hover:text-gray-900 cursor-pointer">About</a>
-            <a class="mr-5 hover:text-gray-900 cursor-pointer">Portfolio</a>
-            <a class="mr-5 hover:text-gray-900 cursor-pointer">Contact</a>
+            <a href="#section-about" class="mr-5 hover:text-gray-900 cursor-pointer">About</a>
+            <a href="#section-education" class="mr-5 hover:text-gray-900 cursor-pointer">Education</a>
+            <a href="#section-portfolio" class="mr-5 hover:text-gray-900 cursor-pointer">Portfolio</a>
           </nav>
-          <button
+          <a href="https://www.linkedin.com/in/vlad-zuzu-0378a624b/"
             class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Contact
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
               stroke="currentColor" class="w-5 h-5 ml-2">
               <path stroke-linecap="round" stroke-linejoin="round"
                 d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
             </svg>
-          </button>
+          </a>
         </div>
       </header>
 
@@ -44,12 +46,12 @@
             <h2 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Frontend Developer</h2>
             <p class="mb-8 leading-relaxed">Are you seeking a talented and experienced employee for your company? I am an experienced Frontend Developer with deep knowledge and a passion for creating amazing web interfaces. My expertise and skills include working with HTML, CSS, JavaScript, and modern frameworks like React and Vue.js. I am committed to crafting elegant and functional user interfaces that deliver an exceptional user experience. If you're looking to hire a qualified developer ready to contribute to your team, click the "Contact" button below to discuss collaboration opportunities.</p>
             <div class="flex justify-center">
-              <button class="inline-flex text-white bg-gray-500 border-0 py-2 px-6 focus:outline-none hover:bg-gray-600 rounded text-lg">Contact</button>
+              <a href="https://www.linkedin.com/in/vlad-zuzu-0378a624b/" class="inline-flex text-white bg-gray-500 border-0 py-2 px-6 focus:outline-none hover:bg-gray-600 rounded text-lg">Contact</a>
             </div>
           </div>
         </div>
       </section>
-      <section class="text-gray-600 body-font">
+      <section id="section-about" class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto">
           <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-400 mb-8" viewBox="0 0 975.036 975.036">
@@ -63,7 +65,7 @@
         </div>
       </section>
 
-    <section class="text-gray-600 body-font">
+    <section id="section-education" class="text-gray-600 body-font">
       <div class="container px-5 py-24 mx-auto flex flex-wrap">
         <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
           <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
@@ -148,7 +150,9 @@
       </div>
     </section>
 
-    <section class="text-gray-600 body-font">
+    <!-- Section Portfolio-->
+
+    <section id="section-portfolio" class="text-gray-600 body-font">
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full mb-20">
           <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">My Portfolio</h1>
@@ -269,23 +273,12 @@
         </a>
         <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2023 vzuzu.dev</p>
         <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-          <a class="text-gray-500">
-            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-            </svg>
-          </a>
-          <a class="ml-3 text-gray-500">
+          <a href="https://twitter.com/Vlad9Zuzu" class="ml-3 text-gray-500">
             <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
               <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
             </svg>
           </a>
-          <a class="ml-3 text-gray-500">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-            </svg>
-          </a>
-          <a class="ml-3 text-gray-500">
+          <a href="https://www.linkedin.com/in/vlad-zuzu-0378a624b/" class="ml-3 text-gray-500">
             <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
               <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
               <circle cx="4" cy="4" r="2" stroke="none"></circle>
